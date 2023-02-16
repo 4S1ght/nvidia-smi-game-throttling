@@ -1,0 +1,34 @@
+{
+  "name": "nvidia-smi-game-throttling",
+  "version": "0.0.1",
+  "description": "An Nvidia-SMI based game detection and throttling service.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4S1ght/nvidia-smi-game-throttling.git"
+  },
+  "keywords": [
+    "game",
+    "throttling",
+    "nvidia",
+    "nvidiasmi"
+  ],
+  "author": "4Sight",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/4S1ght/nvidia-smi-game-throttling/issues"
+  },
+  "homepage": "https://github.com/4S1ght/nvidia-smi-game-throttling#readme",
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "@types/ping": "^0.4.1"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "npm": "^9.5.0",
+    "ping": "^0.4.2"
+  }
+}
